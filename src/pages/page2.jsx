@@ -15,11 +15,11 @@ export default function Page2() {
     }
 
     return (
-        <div className='p-5'>
+        <div className='px-4 py-5'>
             <h1 className='text-center'>Page 2</h1>
             <h1 className='text-center mt-3'>{counter}</h1>
 
-            <div className='d-flex flex-column w-25 m-auto gap-4 mt-5'>
+            <div className='d-flex flex-column align-items-center gap-4 mt-5 btnsDiv'>
                 <button onClick={increment} className='btn btn-primary'>
                     +
                 </button>
